@@ -1,6 +1,7 @@
 # Badescu Madalina 211
 
 Proiectul meu se intituleaza "Gestionarea unei agentii de turism". 
+
 In cadrul acestuia, am 4 clase: Angajat, Client, Destinatie, Oferta. 
 Functionalitatea clasei Angajat ma informeaza in legatura cu salariul anual al fiecarui angajat.
 Cea de-a doua clasa are functionalitatea de a ma informa despre retul platit de fiecare client, in urma efectuarii unei reduceri.
