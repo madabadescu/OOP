@@ -72,7 +72,7 @@ public:
         return this->varsta;
     }
     char* getPost(){
-        return this->post;//returneaza doar primul caracter
+        return this->post;
     }
     double getPrima(){
         return this->prima;
