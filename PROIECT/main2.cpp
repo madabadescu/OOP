@@ -1,5 +1,3 @@
-//partea intai
-
 #include <iostream>
 #include <string.h>
 
@@ -212,13 +210,7 @@ public:
     }
 };
 int Angajat::contor=3;
-/*
-class Manager:public Angajat{
-    string departament;
-public:
-    Manager
-};
-*/
+
 class Client{
     const int ID_Client;
     char* nume;
@@ -444,6 +436,7 @@ public:
             delete[] this->nume;
     }
 };
+//clasa derivata din Destinatie
 class Romania:public Destinatie{
     string judet;
 public:
@@ -470,6 +463,7 @@ public:
     }
     friend istream& operator>> (istream &, Romania&);
     Romania& operator=(Romania&);
+    //metoda noua a clasei
     void afisareEroare(){
         if(judet=="Strainatate")
             cout<<"Destinatia introdusa nu se afla in Romania.\n";
@@ -544,7 +538,7 @@ public:
             delete[] nume;
     }
 };
-
+//clasa derivata din Oferte
 class SarbatoriIarna:public Oferta{
     string luna;
 public:
@@ -571,6 +565,7 @@ public:
      }
     friend istream& operator>> (istream &, SarbatoriIarna&);
     SarbatoriIarna& operator=(SarbatoriIarna&);
+    //metoda noua a clasei
     void afisareEroare(){
         int ok=1;
         if(luna=="Decembrie")
