@@ -942,7 +942,7 @@ if(nr==1){
     a5.afisare();
 
     cout<<a3<<endl<<a4;
-    //am comentat toate cin-urile pentru obiecte, deoarece le folosesc in meniul de la final
+    //am comentat toate cin-urile pentru obiecte, deoarece le folosesc in meniul de la inceput
 /*
     cout<<"Introduceti numele, salariul si varsta angajatului:\n";
     Angajat a6;
